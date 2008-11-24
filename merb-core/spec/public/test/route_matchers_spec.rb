@@ -118,7 +118,7 @@ describe Merb::Test::Rspec::RouteMatchers do
           matcher.failure_message.should include(expected_parameters.inspect)
         end
 
-        it "should include the actual paramters" do
+        it "should include the actual parameters" do
           expected_parameters, actual_parameters = {:id => '123', :page => '2'}, {:id => '2', :page => '321'}
           matcher = RouteToMatcher.new(TestController, :any_action)
           matcher.with(expected_parameters)

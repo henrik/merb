@@ -28,7 +28,7 @@ describe "When generating URLs," do
       end
     end
 
-    it "should generate a URL with a paramter passed for the variable" do
+    it "should generate a URL with a parameter passed for the variable" do
       url(:welcome, :account => "walruses").should == "/walruses/welcome"
     end
     

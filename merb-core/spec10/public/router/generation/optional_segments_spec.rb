@@ -80,11 +80,11 @@ describe "When generating URLs," do
       end
     end
 
-    it "should generate the full route if all the necessary paramters are supplied" do
+    it "should generate the full route if all the necessary parameters are supplied" do
       url(:nested, :controller => "users", :action => "show", :id => 5).should == "/users/show/5"
     end
 
-    it "should generate only the required segment if no optional paramters are supplied" do
+    it "should generate only the required segment if no optional parameters are supplied" do
       url(:nested, :controller => "users").should == "/users"
     end
 

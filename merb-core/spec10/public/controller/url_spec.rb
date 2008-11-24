@@ -259,7 +259,7 @@ describe Merb::Controller, "#url(:this, *args)" do
     request("/postage", :method => "post").body.to_s.should == "/postage"
   end
   
-  it "should be able to tag on extra query string paramters" do
+  it "should be able to tag on extra query string parameters" do
     request('/action/this_route_with_page').body.to_s.should == "/action/this_route_with_page?page=2"
   end
   

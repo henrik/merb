@@ -86,7 +86,7 @@ module Merb::Test::MultipartRequestHelper
 
   # Similar to dispatch_to but allows for sending files inside params.  
   #
-  # ==== Paramters 
+  # ==== Parameters 
   # controller_klass<Controller>::
   #   The controller class object that the action should be dispatched to.
   # action<Symbol>:: The action name, as a symbol.

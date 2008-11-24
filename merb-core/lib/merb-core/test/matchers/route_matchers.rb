@@ -36,7 +36,7 @@ module Merb::Test::Rspec::RouteMatchers
       @parameter_matcher.nil? ? true : @parameter_matcher.matches?(target)
     end
 
-    # Creates a new paramter matcher.
+    # Creates a new parameter matcher.
     #
     # ==== Parameters
     # parameters<Hash, ~to_param>:: The parameters to match.

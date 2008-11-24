@@ -112,7 +112,7 @@ module Merb
     
       # An alias to the request.params hash
       # Only rely on this hash to find any router params you are looking for.
-      # If looking for paramteres use request.params
+      # If looking for parameters use request.params
       def params
         @params
       end
